@@ -72,7 +72,7 @@ function Main() {
       <div className={styles.container}>
         <header>
           <div className={styles.logo}>
-            <h2>Image Generator</h2>
+            <h2>AI Image Generator</h2>
           </div>
         </header>
         <section>
@@ -83,7 +83,7 @@ function Main() {
               name="inputText"
               className="generate-input"
             />
-            <button className="submit-btn" type="submit">
+            <button className={styles.submitBtn} type="submit">
               Generate
             </button>
             <div className={styles.textMuted}>
